@@ -17,20 +17,24 @@
             <div class="projectno">
                 <div class="copyprojectid">
                     <p class="caption" id="projectID">Project No. 123456</p>
-                    <button><i class="material-icons" style="font-size:12px; color:#BEBEBE" onclick="copyProjectID()" >content_copy</i></button>
+                    <button><i class="material-icons" style="font-size:12px; color:#9B9B9B" onclick="copyProjectID()" >content_copy</i></button>
                 </div>
                 <div><i class="material-icons" style="font-size:16px; color: #9B9B9B;">more_vert</i></div>
             </div>
             <h3>Project Name</h3>
         </div>
-        <div class="card">
-            <div class="bg"></div>
-            <div class="description">
-                <h4>DESCRIPTION</h4>
-                <p class="descriptioncontent">Lorem ipsum dolor sit amet consectetur. Egestas purus molestie at diam.
-                    Sed tristique scelerisque dui
-                    nulla habitant in.</p>
+        <div class="imageContainer">
+            <div><button id="leftButton"><i class="material-icons" style="font-size:16px; color:#9B9B9B" onclick="leftSlide()">chevron_left</i></button></div>
+            <div class="card">
+                <div class="bg" id="bgContainer"></div>
+                <div class="description">
+                    <h4>DESCRIPTION</h4>
+                    <p class="descriptioncontent">Lorem ipsum dolor sit amet consectetur. Egestas purus molestie at diam.
+                        Sed tristique scelerisque dui
+                        nulla habitant in.</p>
+                </div>
             </div>
+            <div><button id="rightButton"><i class="material-icons" style="font-size:16px; color:#9B9B9B" onclick="rightSlide()" >chevron_right</i></button></div>
         </div>
         <div class="content">
             <div class="detailitem">
